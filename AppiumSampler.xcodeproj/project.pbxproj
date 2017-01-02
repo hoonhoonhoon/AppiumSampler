@@ -15,6 +15,7 @@
 		FF61DB5E1E1A7165009F38BB /* AppiumSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB5D1E1A7165009F38BB /* AppiumSamplerTests.swift */; };
 		FF61DB691E1A7165009F38BB /* AppiumSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB681E1A7165009F38BB /* AppiumSamplerUITests.swift */; };
 		FF61DB771E1A78E7009F38BB /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB761E1A78E7009F38BB /* ChildViewController.swift */; };
+		FF61DB791E1A7B6E009F38BB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB781E1A7B6E009F38BB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FF61DB681E1A7165009F38BB /* AppiumSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppiumSamplerUITests.swift; sourceTree = "<group>"; };
 		FF61DB6A1E1A7165009F38BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF61DB761E1A78E7009F38BB /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		FF61DB781E1A7B6E009F38BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FF61DB471E1A7164009F38BB /* AppiumSampler */ = {
 			isa = PBXGroup;
 			children = (
+				FF61DB781E1A7B6E009F38BB /* README.md */,
 				FF61DB481E1A7164009F38BB /* AppDelegate.swift */,
 				FF61DB4A1E1A7164009F38BB /* ViewController.swift */,
 				FF61DB761E1A78E7009F38BB /* ChildViewController.swift */,
@@ -267,6 +270,7 @@
 			files = (
 				FF61DB4B1E1A7164009F38BB /* ViewController.swift in Sources */,
 				FF61DB491E1A7164009F38BB /* AppDelegate.swift in Sources */,
+				FF61DB791E1A7B6E009F38BB /* README.md in Sources */,
 				FF61DB771E1A78E7009F38BB /* ChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				FF61DB6F1E1A7165009F38BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF61DB701E1A7165009F38BB /* Build configuration list for PBXNativeTarget "AppiumSamplerTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				FF61DB721E1A7165009F38BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF61DB731E1A7165009F38BB /* Build configuration list for PBXNativeTarget "AppiumSamplerUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				FF61DB751E1A7165009F38BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
