@@ -14,6 +14,7 @@
 		FF61DB531E1A7164009F38BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF61DB511E1A7164009F38BB /* LaunchScreen.storyboard */; };
 		FF61DB5E1E1A7165009F38BB /* AppiumSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB5D1E1A7165009F38BB /* AppiumSamplerTests.swift */; };
 		FF61DB691E1A7165009F38BB /* AppiumSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB681E1A7165009F38BB /* AppiumSamplerUITests.swift */; };
+		FF61DB771E1A78E7009F38BB /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61DB761E1A78E7009F38BB /* ChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF61DB641E1A7165009F38BB /* AppiumSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppiumSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF61DB681E1A7165009F38BB /* AppiumSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppiumSamplerUITests.swift; sourceTree = "<group>"; };
 		FF61DB6A1E1A7165009F38BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF61DB761E1A78E7009F38BB /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FF61DB481E1A7164009F38BB /* AppDelegate.swift */,
 				FF61DB4A1E1A7164009F38BB /* ViewController.swift */,
+				FF61DB761E1A78E7009F38BB /* ChildViewController.swift */,
 				FF61DB4C1E1A7164009F38BB /* Main.storyboard */,
 				FF61DB4F1E1A7164009F38BB /* Assets.xcassets */,
 				FF61DB511E1A7164009F38BB /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				FF61DB4B1E1A7164009F38BB /* ViewController.swift in Sources */,
 				FF61DB491E1A7164009F38BB /* AppDelegate.swift in Sources */,
+				FF61DB771E1A78E7009F38BB /* ChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

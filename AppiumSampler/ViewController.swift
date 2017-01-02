@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var labels: [UILabel]!
+    
+    @IBOutlet var buttons: [UIButton]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        labels.forEach{$0.text = ""}
+        buttons.forEach{$0.addTarget(self, action: #selector(click(_:)), for: .touchUpInside)}
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func click(_ sender: UIButton) {
+        guard let title = sender.title(for: .normal) else {return}
+        labels.forEach{$0.text = "Hello, \(title) world"}
+    }
 
 }
 
